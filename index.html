@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <h1 id="name">HTML DOM</h1>
+        <div id="theme-toggle-container">
+            <label class="switch">
+                <input type="checkbox" id="theme-toggle">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </div>
+    <div id="timer-container">
+        <h2>Timer</h2>
+        <input type="number" id="timer-input" placeholder="Enter seconds" min="1">
+        <button id="start-timer">Start</button>
+        <button id="pause-timer">Pause</button>
+        <button id="resume-timer">Resume</button>
+        <button id="reset-timer">Reset</button>
+        <div id="timer-display">0s</div>
+    </div>
+    <div id="image-gallery">
+        <h2>Gallery</h2>
+        <div id="gallery">
+            <img src="PngItem_1404313.png" class="thumbnail" alt="Image 1">
+            <img src="PngItem_5267316.png" class="thumbnail" alt="Image 2">
+        </div>
+        <div id="large-image-container">
+            <img src="" id="large-image" alt="Large View">
+        </div>
+    </div>
+    <div id="table-container">
+        <h2>User Data Table</h2>
+        <input type="text" id="input-name" placeholder="Enter name">
+        <input type="number" id="input-age" placeholder="Enter age">
+        <button id="add-row">Add Row</button>
+        <button id="sort-button">Sort Alphabetically</button>
+        <button id="filter-button">Filter Duplicates</button>
+        <button id="reverse-button">Reverse Order</button>
+        <table id="user-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
